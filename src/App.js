@@ -10,9 +10,7 @@ import { auth, createUserProfileDocument } from "./firebase/firebase.utils";
 import "./App.css";
 
 class App extends React.Component {
-  state = {
-    currentUser: null
-  };
+  state = {};
 
   unsubscribeFromAuth = null;
 
